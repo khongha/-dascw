@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        body {
+            font-family: 'Dancing Script', cursive, sans-serif;
+            background: linear-gradient(135deg, #FFDDE1, #EE9CA7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .letter-container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 600px;
+            text-align: center;
+            position: relative;
+            animation: fadeIn 1.5s ease;
+        }
+
+        .letter-container h1 {
+            font-size: 2.5rem;
+            color: #FF6F61;
+            margin-bottom: 20px;
+            animation: slideIn 1s ease-out;
+        }
+
+        .letter-container p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .letter-container .highlight {
+            color: #FF6F61;
+            font-weight: bold;
+        }
+
+        .letter-container .icon {
+            font-size: 3rem;
+            margin-top: 10px;
+            animation: bounce 2s infinite;
+        }
+
+        .letter-container .couple-photo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .footer a {
+            color: #FF6F61;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="letter-container">
+        <img src="couple.jpg" alt="Couple Photo" class="couple-photo">
+        <h1>Gửi em yêu!</h1>
+        <p>Hôm nay là sinh nhật của em, ngày đặc biệt nhất trong năm dành riêng cho cô gái mà anh yêu thương hơn tất cả. Chúng ta đã yêu nhau được 10 tháng rồi, một hành trình không dài nhưng đủ để anh nhận ra rằng em chính là người mà anh muốn đi cùng suốt cuộc đời.</p>
+
+        <p>Anh vẫn nhớ như in lần duy nhất chúng ta gặp nhau trước ngày sinh nhật của em. Dù kế hoạch công việc khiến em không thể ở lại lâu hơn, nhưng những khoảnh khắc ấy mãi mãi là kỷ niệm quý giá trong tim anh. Chúng ta đã cùng tổ chức sinh nhật trước vài hôm, và anh không ngừng nghĩ về nụ cười rạng rỡ của em hôm ấy.</p>
+
+        <p>Anh rất nhớ những ngày bên em vừa qua, khi cả hai chúng ta hạnh phúc bên nhau. Những cái ôm và những nụ hôn ấy vẫn vẹn nguyên trong ký ức của anh. Anh mong rằng chúng ta sẽ có thể làm nhiều hơn thế nữa, cùng nhau tạo nên thật nhiều kỷ niệm đẹp trong tương lai.</p>
+
+        <p>Xa em vào ngày đặc biệt này, anh cảm nhận rõ hơn sự thiệt thòi mà em đã chịu khi yêu xa. Cả hai chúng ta đều đang phải xa gia đình, xa nhau vì công việc. Nhưng anh tin rằng tình yêu của chúng ta đủ mạnh mẽ để vượt qua mọi khó khăn. Em luôn là động lực giúp anh cố gắng mỗi ngày, và anh mong em cũng cảm nhận được tình yêu mà anh luôn dành trọn cho em.</p>
+
+        <p>Anh muốn em biết rằng anh không chỉ yêu em trong hiện tại mà còn muốn gắn bó với em mãi mãi. Khi trở về, anh hứa sẽ cùng em xây dựng một mái ấm tràn đầy yêu thương và tiếng cười. <span class="highlight">Anh muốn được kết hôn với em</span>, và mỗi năm, anh sẽ làm cho ngày sinh nhật của em thật đặc biệt, bù đắp những năm tháng xa cách này. Cảm ơn em đã đến bên anh, yêu anh, và cùng anh vượt qua mọi thử thách trong cuộc sống.</p>
+
+        <p>Hãy luôn giữ nụ cười trên môi, em nhé. Chúc em sinh nhật thật vui vẻ, tràn đầy niềm vui và hạnh phúc. Em mãi là cô gái đặc biệt nhất trong trái tim anh. Anh yêu em!</p>
+
+        <i class="fa-solid fa-heart icon"></i>
+    </div>
+
+    <div class="footer">Made with ❤️ by anh dành riêng cho em.</div>
+</body>
+</html>
